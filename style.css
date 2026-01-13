@@ -135,6 +135,43 @@ ul li a {
     line-height: 32px;
 }
 
+/* family section code hare  */
+#family {
+    margin-bottom: 60px;
+}
+#family h1 {
+    font-size: 45px;
+    margin: 50px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.family-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; 
+}
+.family-contant *{
+    margin-bottom: 15px;
+}
+.family-contant {
+    position: relative;
+}
+#icon-1 {
+    font-size: 40px;
+    position: absolute;
+    top: -92px;
+    left: -14;
+}
+#icon-2 {
+    font-size: 40px;
+    position: absolute;
+    left: 298px;
+    top: 111px;
+    
+}
+
 
 /* responsive desing  */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -145,7 +182,8 @@ ul li a {
 
     .hero-p,
     .hero-box-p,
-    .service-p {
+    .service-p,
+    .family-p {
         flex-direction: column;
     }
     .service-card-p {
@@ -153,6 +191,25 @@ ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
+.family-img {
+    text-align: center;
+}
+#icon-1 {
+    font-size: 30px;
+    position: absolute;
+    top: -30px;
+    left: -46px;
+}
+#icon-2 {
+    font-size: 30px;
+    position: absolute;
+    left: 298px;
+    top: 111px;
+    
+}
+
+
+
 }
 
 @media screen and (max-width:576px) {
@@ -164,7 +221,8 @@ ul li a {
     #nav-bar,
     ul, .hero-p,
     .hero-box-p ,
-    .service-p {
+    .service-p,
+    .family-p {
         flex-direction: column;
     }
     #nav-bar {
@@ -205,6 +263,30 @@ ul li a {
 .service-contant p {
     padding: 0 10px;
 }
+#icon-1 {
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+#icon-2 {
+    font-size: 20px;
+    position: absolute;
+    left: 298px;
+    top: 67px;
+    
+}
+.family-img {
+    text-align: center;
+}
+#family h1 {
+    font-size: 35px;
+    margin: 50px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
 
 
 }
