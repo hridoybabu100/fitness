@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #050706;
+    background-color: #050706;  
 }
 
 #nav-bar {
@@ -311,7 +311,10 @@ ul li a {
 .foter-box p a {
     text-decoration: none;
 }
-
+#vedio {
+    text-align: center;
+    
+}
 
 
 
@@ -476,6 +479,10 @@ ul li a {
     .hero-img {
         width: 100%;
     }
+    .hero-img img {
+        border-radius: 10px;
+        height: 100%;
+    }
 
     .hero-contant {
         width: 100%;
@@ -627,10 +634,6 @@ ul li a {
 .foter-box *{
     margin-bottom: 10px;
 }
-/* .foter-box {
-    text-align: center;
-    width: 100%; */
-}
 .foter-box h2 {
     margin-bottom: 20px;
 }
@@ -641,8 +644,6 @@ ul li a {
 .icon {
     margin-right: 20px;
 }
-.copy-box a {
 
-}
 
 }
