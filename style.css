@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: #FFFFFF;
 }
 
 .container {
@@ -102,33 +102,40 @@ ul li a {
     color: #f1f6f3;
     font-size: 20px;
 }
+
 /* services section code hare */
 #service {
     margin-bottom: 60px
 }
+
 .service-p {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .service-card-p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 65px;
 }
+
 .service-card {
     text-align: center;
     padding: 20px;
 }
-.service-card *{
+
+.service-card * {
     margin-bottom: 10px;
 }
+
 .service-contant h1 {
     font-size: 36px;
     font-weight: 900;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
 .service-contant p {
     color: #b49e9e;
     margin-bottom: 20px;
@@ -139,6 +146,7 @@ ul li a {
 #family {
     margin-bottom: 60px;
 }
+
 #family h1 {
     font-size: 45px;
     margin: 50px 0px;
@@ -146,31 +154,104 @@ ul li a {
     font-weight: bold;
     color: #FFFFFF;
 }
+
 .family-p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px; 
+    gap: 40px;
 }
-.family-contant *{
+
+.family-contant * {
     margin-bottom: 15px;
 }
+
 .family-contant {
     position: relative;
 }
+
 #icon-1 {
     font-size: 40px;
     position: absolute;
     top: -92px;
     left: -14;
 }
+
 #icon-2 {
     font-size: 40px;
     position: absolute;
     left: 298px;
     top: 111px;
-    
+
 }
+
+/* facilitices section code hare  */
+#facility {
+    margin-bottom: 60px;
+}
+
+#facility h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.facility-p {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.facility-card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.facility-img img {
+    width: 127px;
+}
+
+.facility-contant * {
+    margin-bottom: 15px;
+}
+
+
+/* tariners section code hare  */
+#trainer {
+    margin-bottom: 60px;
+}
+
+#trainer-heading-p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#trainer-heading-p h1 {
+    font-size: 40px;
+    margin-right: 450px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.tariner-img-p {
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; 
+    margin: 50px 0;  
+}
+
+.trainer-img img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+
+
+
 
 
 /* responsive desing  */
@@ -186,26 +267,61 @@ ul li a {
     .family-p {
         flex-direction: column;
     }
+
     .service-card-p {
-    display: grid;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .family-img {
+        text-align: center;
+    }
+
+    #icon-1 {
+        font-size: 30px;
+        position: absolute;
+        top: -30px;
+        left: -46px;
+    }
+
+    #icon-2 {
+        font-size: 30px;
+        position: absolute;
+        left: 298px;
+        top: 111px;
+
+    }
+
+    .facility-p {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .facility-card {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    #trainer-heading-p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#trainer-heading-p h1 {
+    margin-right: 200px;
+    font-size: 30px;
+}
+.tariner-img-p {
+    display:grid ;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 50px; 
 }
-.family-img {
+.trainer-img {
     text-align: center;
-}
-#icon-1 {
-    font-size: 30px;
-    position: absolute;
-    top: -30px;
-    left: -46px;
-}
-#icon-2 {
-    font-size: 30px;
-    position: absolute;
-    left: 298px;
-    top: 111px;
-    
 }
 
 
@@ -219,87 +335,150 @@ ul li a {
     }
 
     #nav-bar,
-    ul, .hero-p,
-    .hero-box-p ,
+    ul,
+    .hero-p,
+    .hero-box-p,
     .service-p,
     .family-p {
         flex-direction: column;
     }
+
     .btn-1 {
-    background-color: #FCF43D;
-    padding: 10px 20px;
-}
+        background-color: #FCF43D;
+        padding: 10px 20px;
+    }
 
-.btn-2 {
-    background-color: #050706;
-    padding: 10px 20px;
+    .btn-2 {
+        background-color: #050706;
+        padding: 10px 20px;
 
-}
+    }
+
     #nav-bar {
-        margin-bottom: 60px; 
+        margin-bottom: 60px;
     }
 
     ul li {
         margin-bottom: 20px;
-        text-align: center; 
+        text-align: center;
     }
+
     .hero-contant {
         text-align: center;
     }
+
     .hero-contant h1 {
         padding: 0 10px;
     }
+
     .hero-img {
         width: 100%;
     }
+
     .hero-contant {
-    width: 100%;
-}
-.hero-contant p {
-    padding: 0px 10px;
-}
-    .hero-img img {
-    width: 100%;
-    margin-bottom: 30px;
-}
-    .service-card-p {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-}
-.service-contant {
+        width: 100%;
+    }
+
+    .hero-contant p {
+        padding: 0px 10px;
+    }
+    .hero-card {
     text-align: center;
-}
-.service-contant h1 {
-    font-size: 25px;
-}
-.service-contant p {
-    padding: 0 10px;
-}
-#icon-1 {
-    font-size: 20px;
-    position: absolute;
-    top: -15px;
-    left: -20px;
-}
-#icon-2 {
-    font-size: 20px;
-    position: absolute;
-    left: 298px;
-    top: 67px;
-    
-}
-.family-img {
-    text-align: center;
-}
-#family h1 {
-    font-size: 35px;
-    margin: 50px 0px;
-    text-align: center;
-    font-weight: bold;
-    color: #FFFFFF;
+    width: 100px;
+    padding: 20px;
 }
 
+    .hero-img img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-card-p {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .service-contant {
+        text-align: center;
+    }
+
+    .service-contant h1 {
+        font-size: 25px;
+    }
+
+    .service-contant p {
+        padding: 0 10px;
+    }
+
+    #icon-1 {
+        font-size: 20px;
+        position: absolute;
+        top: -15px;
+        left: -20px;
+    }
+
+    #icon-2 {
+        font-size: 20px;
+        position: absolute;
+        left: 298px;
+        top: 67px;
+
+    }
+
+    .family-img {
+        text-align: center;
+    }
+
+    #family h1 {
+        font-size: 35px;
+        margin: 50px 0px;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .facility-p {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .facility-card {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .facility-contant p {
+        padding: 0 15px;
+    }
+        #trainer-heading-p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#trainer-heading-p h1 {
+    margin-right: 100px;
+    font-size: 25px;
+}
+.tariner-img-p {
+    display:grid ;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px; 
+}
+.tariner-img-p {
+    /* width: 100%;  */
+}
+.trainer-img {
+    text-align: center;
+
+}
+#trainer-heading-p p a {
+    font-size: 14px;
+}
 
 
 }
