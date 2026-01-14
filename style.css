@@ -249,6 +249,68 @@ ul li a {
     border-radius: 10px;
 }
 
+#dumble {
+    margin-bottom: 50px;
+}
+.dumble-p {
+    border-radius: 10px;
+    background-color: #D5D5D5;
+    display: flex;
+    /* justify-content: ;  */
+    align-items: center;
+    margin-top: 50px;
+}
+.dumble-img img {
+    width: 550px;
+    height: 400px;
+    vertical-align: middle;
+}
+.dumble-contant {
+  margin-left: 60px;
+
+}
+
+.dumble-contant *{
+    margin-bottom: 30px;
+}
+#from h2 {
+    font-size: 30px;
+    color: #050706;
+    font-weight: bold;
+}
+#from p {
+    color: #050706;
+}
+#from input {
+    width: 300px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+/* al the last section foter code hare  */
+#foter {
+    
+}
+#foter-p, #copy-p {
+     display: flex;
+     justify-content: space-between;
+     /* align-items: center;  */
+     margin-bottom: 50px;
+}
+#map {
+    border-radius: 10px;
+}
+.foter-box *{
+    margin-bottom: 10px;
+}
+.foter-box h2 {
+    margin-bottom: 20px;
+}
+.foter-box p a {
+    text-decoration: none;
+}
 
 
 
@@ -322,6 +384,46 @@ ul li a {
 }
 .trainer-img {
     text-align: center;
+}
+.dumble-p {
+    border-radius: 10px;
+    background-color: #D5D5D5;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.dumble-img img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.dumble-contant {
+    text-align: center;
+    margin-left: 1px;
+}
+#foter-p {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     margin-bottom: 50px;
+     gap: 50px;
+}
+#map {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.foter-box *{
+    margin-bottom: 10px;
+}
+.foter-box h2 {
+    margin-bottom: 20px;
 }
 
 
@@ -479,6 +581,68 @@ ul li a {
 #trainer-heading-p p a {
     font-size: 14px;
 }
+.dumble-p {
+    border-radius: 10px;
+    background-color: #D5D5D5;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.dumble-img img {
+    width: 100%;
+    height: 100%;
+    /* height: 200px;  */
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.dumble-contant {
+    width: 100%;
+    text-align: center;
+    margin-left: 1px;
+}
+#from input {
+    width: 50%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+#foter-p {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     margin-bottom: 50px;
+     gap: 50px;
+}
+#map {
+    width: 100%;
+    height: 200px; 
+    border-radius: 10px;
+}
+.foter-box *{
+    margin-bottom: 10px;
+}
+/* .foter-box {
+    text-align: center;
+    width: 100%; */
+}
+.foter-box h2 {
+    margin-bottom: 20px;
+}
+.copy-box p {
+    font-size: 14px;
+    padding-left: 20px;
+}
+.icon {
+    margin-right: 20px;
+}
+.copy-box a {
 
+}
 
 }
